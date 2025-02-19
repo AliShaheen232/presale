@@ -5,8 +5,8 @@ app = FastAPI()
 
 class Account(BaseModel):
     address: str
-    chain:str
-    
+    chain: str
+
 
 @app.get("/")
 async def root() :

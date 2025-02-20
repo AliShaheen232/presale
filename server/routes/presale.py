@@ -11,6 +11,3 @@ class Account(BaseModel):
 @app.get("/")
 async def root() :
     return {"messgae":"presale APIs"}
-
-@app.get("/connect")
-async def root() :
